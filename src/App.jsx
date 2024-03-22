@@ -18,8 +18,8 @@ function App() {
         headers: {
           "content-type": "application/x-www-form-urlencoded",
           "X-RapidAPI-Key":
-            "f6d3ef2a4dmsh7a4cd41b52b16c6p10804ajsnabb4ea4cd0d6",
-          "X-RapidAPI-Host": "url-shortener-service.p.rapidapi.com",
+            {API_KEY},
+          "X-RapidAPI-Host": {HOST},
         },
         data: { url: originalUrl },
       };
